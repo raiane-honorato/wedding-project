@@ -1,0 +1,317 @@
+[
+  {
+    "title": "Jogo de Taças para Cerveja",
+    "description": "Copo Stanley é bom, mas é feio pra servir pras visitas",
+    "value": 77.9,
+    "img": "https://loja.nadir.com.br/media/catalog/product/cache/c9374bbd89641c59bc521af8dd3dd140/7/6/76510200962357_-_fam.jpg",
+    "id": "gift-1"
+  },
+  {
+    "title": "Moedor de pimenta e saleiro",
+    "description": "Só tem na casa de gente chique, como será a do nosso querido casal",
+    "value": 79,
+    "img": "https://m.media-amazon.com/images/I/61r4qEv5WcL._AC_SL1000_.jpg",
+    "id": "gift-2"
+  },
+  {
+    "title": "Bowl para salada",
+    "description": "Quem sabe num bowl bonito o Lucas não coma mais salada?",
+    "value": 85.9,
+    "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/068/897/products/bowls-ilha-bela-capa1-ee69ee2d7b178c4fc216286952628977-1024-1024.jpg",
+    "id": "gift-3"
+  },
+  {
+    "title": "Jogo de Copos",
+    "description": "Os bons drinks nunca foram tão lindos",
+    "value": 99.9,
+    "img": "https://loja.nadir.com.br/media/catalog/product/cache/c9374bbd89641c59bc521af8dd3dd140/2/9/29110200759914_-_fam.jpg",
+    "id": "gift-4"
+  },
+  {
+    "title": "Aparador de livros",
+    "description": "A coleção da Raiane só cresce",
+    "value": 109,
+    "img": "http://t3.gstatic.com/images?q=tbn:ANd9GcRTQ3j3arweCcksh4MJozxRbRm74lF67hznbh7eeF3b2fjUNe8b",
+    "id": "gift-5"
+  },
+  {
+    "title": "Porta Condimentos",
+    "description": "Quero ver faltar \"tompêro\"!",
+    "value": 119,
+    "img": "https://m.media-amazon.com/images/I/71ZHjzuJPEL._AC_SL1500_.jpg",
+    "id": "gift-6"
+  },
+  {
+    "title": "Souvenirs da viagem",
+    "description": "Lembrancinhas da lua de mel",
+    "value": 120,
+    "img": "https://static9.depositphotos.com/1443566/1150/i/950/depositphotos_11503230-stock-photo-touristic-souveniers-in-the-spice.jpg",
+    "id": "gift-7"
+  },
+  {
+    "title": "Aluguel de bicicletas",
+    "description": "Tirar o Lucas do sedentarismo é difícil, mas pra um passeio de bike ele anima",
+    "value": 125,
+    "img": "https://edisonbeachhouse.com/wp-content/uploads/2021/08/Florida-Bicycle-Trails.jpg",
+    "id": "gift-8"
+  },
+  {
+    "title": "Conjunto para petiscos",
+    "description": "Pra servir Fandangos, Ruffles e amendoim japonês de uma forma chique",
+    "value": 132.8,
+    "img": "https://a-static.mlcdn.com.br/800x560/conjunto-para-petiscos-em-bambu-e-fibra-de-bambu-10-pecas-welf/cosmopolitanstore/33hck5anj/7b22b137f0965944617d9dd966f75834.jpeg",
+    "id": "gift-9"
+  },
+  {
+    "title": "Jogo para Sucos",
+    "description": "Um suco de laranja geladinho é insubstituível",
+    "value": 135.9,
+    "img": "https://a-static.mlcdn.com.br/800x560/jogo-leblon-preto-para-refrescos-hauskraft-cjps-011pt/tecnomidia2/93008269/f60fdaf7c1c5afb80444cd9fb7c2af9c.jpeg",
+    "id": "gift-10"
+  },
+  {
+    "title": "Jogo para Queijo em Bambu",
+    "description": "Se tem algo que esse casal ama mais do que queijo, é só um ao outro",
+    "value": 149,
+    "img": "https://img.ltwebstatic.com/images3_pi/2022/04/06/1649237949ef1ff7dd1dffd27705a82367de016223_thumbnail_600x.webp",
+    "id": "gift-11"
+  },
+  {
+    "title": "Aparelho de Jantar de Cerâmica",
+    "description": "Pro casal fazer empratamentos dignos de Masterchef",
+    "value": 149.9,
+    "img": "https://d3gcmglegmnvz8.cloudfront.net/def_img/433921/default_420",
+    "id": "gift-12"
+  },
+  {
+    "title": "Kit Pizza",
+    "description": "Item INDISPENSÁVEL na casa do maior amante de pizza do mundo",
+    "value": 159.9,
+    "img": "https://imgs.casasbahia.com.br/1515998769/1xg.jpg",
+    "id": "gift-13"
+  },
+  {
+    "title": "Jogo de Cama Queen",
+    "description": "Tem que ser reforçado para a Lilo e a Jujuba não destruirem",
+    "value": 169,
+    "img": "https://m.media-amazon.com/images/I/71+FtsXi5dL._AC_SL1000_.jpg",
+    "id": "gift-14"
+  },
+  {
+    "title": "Jogo de Banho 4 Peças",
+    "description": "Toalhas macias encantam a Raiane",
+    "value": 174.9,
+    "img": "https://karsten.vtexassets.com/arquivos/ids/175639/3693067_01.jpg?v=637520418875500000",
+    "id": "gift-15"
+  },
+  {
+    "title": "Kit Caipirinha com Coqueteleira Inox",
+    "description": "Pra quando a Raiane não quiser acompanhar o Lucas na cerveja",
+    "value": 179,
+    "img": "https://a-static.mlcdn.com.br/800x560/kit-caipirinha-em-bambu-6-pecas-coqueteleira-inox-350-ml-welf/larahomedecor/ke-00423/c875cde38069bff8c98d5301dc902737.jpeg",
+    "id": "gift-16"
+  },
+  {
+    "title": "Cafeteira elétrica",
+    "description": "Para servir bem as visitas que não ficam sem um cafezinho",
+    "value": 189,
+    "img": "https://jcsbrasil.vteximg.com.br/arquivos/ids/166294-570-490/OCAF500-01.jpg?v=636903450260770000",
+    "id": "gift-17"
+  },
+  {
+    "title": "Aspirador de pó portátil",
+    "description": "A Jujuba e a Lilo soltam MUITO pêlo!!!",
+    "value": 190,
+    "img": "https://a-static.mlcdn.com.br/800x560/aspirador-de-po-portatil-e-vertical-electrolux-1000w-power-speed-stk12-preto/magazineluiza/021499100/39854f1980d0bb5394a7a191d528125e.jpg",
+    "id": "gift-18"
+  },
+  {
+    "title": "Liquidificador",
+    "description": "Pra deixar as vitaminas matinais da Raiane muito mais gostosas e sem gosto de creatina",
+    "value": 197,
+    "img": "https://jcsbrasil.vteximg.com.br/arquivos/ids/175948-1000-1000/OLIQ610-01.jpg?v=637305145638000000",
+    "id": "gift-19"
+  },
+  {
+    "title": "Cesto de Roupas",
+    "description": "Esperamos que ele se mantenha mais vazio do que cheio",
+    "value": 199,
+    "img": "https://www.ou.com.br/arquivos/ids/163150-1000-1000/Cesto-De-Roupas-Grid-Com-Tampa-De-Bambu-49-Litros---Preto.jpg?v=638006973145830000",
+    "id": "gift-20"
+  },
+  {
+    "title": "Escorredor de louça",
+    "description": "Porque secar louça é desperdício de tempo",
+    "value": 201,
+    "img": "https://m.media-amazon.com/images/I/61LJaWcAKOL._AC_SL1000_.jpg",
+    "id": "gift-21"
+  },
+  {
+    "title": "Conjunto de porta retratos",
+    "description": "Provavelmente sua foto no casamento estará aqui",
+    "value": 205,
+    "img": "https://staticmobly.akamaized.net/p/Kapos-Conjunto-8-Porta-retratos-45x91-cm-Bons-Momentos-Preto-2183-320407-1-zoom.jpg",
+    "id": "gift-22"
+  },
+  {
+    "title": "Passadeira a vapor",
+    "description": "Talvez agora o Lucas pare de andar com roupa amassada",
+    "value": 210,
+    "img": "https://imgs.casasbahia.com.br/195980/1xg.jpg",
+    "id": "gift-23"
+  },
+  {
+    "title": "Travessa retangular",
+    "description": "Imagina uma lasanha ali, hummmmm",
+    "value": 227,
+    "img": "https://cdn.shopify.com/s/files/1/0384/9781/2613/products/Travessa-Retangular-Ceramica-Heritage-Vermelha-19cm-Le-Creuset-2_1000x1000_crop_center.jpg?v=1655507553",
+    "id": "gift-24"
+  },
+  {
+    "title": "Massagem",
+    "description": "Depois de organizar um casamento, a Raiane merece relaxar, né?",
+    "value": 240,
+    "img": "https://cdn.mymoment.com.br/uploads/servicos/9c97a93d370173dbc7fb6f43149a3bb8.jpg",
+    "id": "gift-25"
+  },
+  {
+    "title": "Edredom 100% algodão",
+    "description": "Xô frio!",
+    "value": 329,
+    "img": "https://d936f1vbzcg3q.cloudfront.net/Custom/Content/Products/98/52/985244_edredom-de-malha-zelo-queen-100-algodao_z19_636867770475550206.jpg",
+    "id": "gift-26"
+  },
+  {
+    "title": "Jogo de talheres - 100 peças",
+    "description": "Qual a diferença entre colher de chá e colher de café? Não é a mesma coisa?",
+    "value": 349,
+    "img": "https://a-static.mlcdn.com.br/1500x1500/faqueiro-tramontina-laguna-inox-100-pecas/magazineluiza/141021200/b0ec3f473b3b4f12999cda05cdb0c1a5.jpg",
+    "id": "gift-27"
+  },
+  {
+    "title": "Jantar romântico a luz de velas",
+    "description": "Eles adoram comer bem, ainda mais apreciando a presença um do outro!",
+    "value": 360,
+    "img": "https://cdnm.westwing.com.br/glossary/uploads/br/2015/05/01184721/mesa-de-jantar-rom%C3%A2ntico-em-%C3%A1rea-externa-a-luz-de-velas_c-a1681.jpg",
+    "id": "gift-28"
+  },
+  {
+    "title": "Churrasqueira portátil",
+    "description": "Quem sabe assim o Lucas pare de só comer hamburguer",
+    "value": 380,
+    "img": "https://imaginarium.vtexassets.com/arquivos/ids/9796170-800-auto?v=637933437912700000&width=800&height=auto&aspect=true",
+    "id": "gift-29"
+  },
+  {
+    "title": "Kit Churrasco",
+    "description": "Quem sabe assim o Lucas pare de só comer hamburguer",
+    "value": 395,
+    "img": "https://a-static.mlcdn.com.br/800x600/title-reference/magazineluiza/218626200/55c426882295d6319b1ad43ddb86a9cd.jpg",
+    "id": "gift-30"
+  },
+  {
+    "title": "Batedeira planetária",
+    "description": "Agora aquelas sobremesas sempre prometidas vão sair!",
+    "value": 399,
+    "img": "https://images-submarino.b2w.io/produtos/01/00/img/2264553/4/2264553477_1GG.jpg",
+    "id": "gift-31"
+  },
+  {
+    "title": "Jogo de panelas",
+    "description": "Por aqui passa a formação do novo Masterchef Brasil",
+    "value": 415.9,
+    "img": "https://m.media-amazon.com/images/I/61r7pXYGReL._AC_SX569_.jpg",
+    "id": "gift-32"
+  },
+  {
+    "title": "Cooktop",
+    "description": "Passou a época de fogão, né? O casal é jovem e moderno, tem que seguir as tendências",
+    "value": 434.5,
+    "img": "https://consul.vtexassets.com/arquivos/ids/225329-800-auto?v=637944518373970000&width=800&height=auto&aspect=true",
+    "id": "gift-33"
+  },
+  {
+    "title": "Airfryer",
+    "description": "A maior inimiga do óleo, essencial para aumentar anos de vida do Lucas",
+    "value": 450,
+    "img": "https://electrolux.vtexassets.com/arquivos/ids/219291-800-800?v=637849499078170000&width=800&height=800&aspect=true",
+    "id": "gift-34"
+  },
+  {
+    "title": "Forno elétrico",
+    "description": "Pãozinho esquentado neste forno fica MUITO FORTE, tá? Vai alegrar as manhãs do Lucas",
+    "value": 490,
+    "img": "https://a-static.mlcdn.com.br/800x560/forno-eletrico-de-bancada-philco-1500w-pfe46p-46l-110v/olistplus/opmq7oygqjb4dwmt/256096772937c2aab83ad4ce16258819.jpeg",
+    "id": "gift-35"
+  },
+  {
+    "title": "Microondas",
+    "description": "Pra esquentar a comida entre uma reunião e outra durante o home office dos dois",
+    "value": 599,
+    "img": "https://a-static.mlcdn.com.br/800x560/micro-ondas-electrolux-23l-prata-efficient/magazineluiza/235613500/d10a76ae62b793f2b87418a194f0341e.jpg",
+    "id": "gift-36"
+  },
+  {
+    "title": "Passeios durante a lua de mel",
+    "description": "Com certeza vai ter um guia brincando com recém casados",
+    "value": 700,
+    "img": "https://natalpraias.com.br/wp-content/uploads/2017/11/passeio-40-imagem4-1.png",
+    "id": "gift-37"
+  },
+  {
+    "title": "Aluguel de carro na Lua de Mel",
+    "description": "Vai rolar briga para que o outro dirija...",
+    "value": 890,
+    "img": "https://img.huffingtonpost.com/asset/55a57eca1900002500b86129.jpeg?ops=scalefit_720_noupscale&format=webp",
+    "id": "gift-38"
+  },
+  {
+    "title": "Jogo de malas",
+    "description": "A ideia dos noivos é voltar com elas cheias da lua de mel",
+    "value": 1099,
+    "img": "https://m.media-amazon.com/images/I/61px+8pmfkL._AC_SL1000_.jpg",
+    "id": "gift-39"
+  },
+  {
+    "title": "Cota na passagem da lua de mel",
+    "description": "Para que eles façam a viagem mais inesquecível da vida",
+    "value": 1400,
+    "img": "https://www.pro-sky.com/images/pt/news/news_header_webseite_2_-69-_187_big.jpg",
+    "id": "gift-40"
+  },
+  {
+    "title": "Geladeira para cerveja",
+    "description": "Sonho de consumo do Lucas. Pode ter certeza que ela sempre estará cheia",
+    "value": 1790,
+    "img": "https://a-static.mlcdn.com.br/800x560/cervejeira-37-litros-colorado-chopeiras-memo/chopeirasmemo2/cvj0370ca22clr/a2e843b84dbece89975fe617ad8bc9a4.jpeg",
+    "id": "gift-41"
+  },
+  {
+    "title": "Sofá",
+    "description": "Pode ter certeza que aqui que eles vão passar a maior parte do tempo juntos!",
+    "value": 2199,
+    "img": "https://staticmobly.akamaized.net/p/CAMA-INBOX-SofC3A1-RetrC3A1til-ReclinC3A1vel-e-Cama-22C15m-Cama-inBox-Flex-Suede-Velusoft-Cinza-6852-357909-1-zoom.jpg",
+    "id": "gift-42"
+  },
+  {
+    "title": "Smart TV",
+    "description": "Certamente o eletrodoméstico mais utilizado na casa do casal, seja pra maratonar séries ou pra jogar videogame por 8 horas seguidas",
+    "value": 3149,
+    "img": "https://www.lg.com/br/images/tv/md07530693/gallery/DZ-02.jpg",
+    "id": "gift-43"
+  },
+  {
+    "title": "Geladeira",
+    "description": "Se você está pensando em dar uma GELADEIRA pro casal, você é muito generoso. Eles vão colocar seu nome colado na geladeira de tanta felicidade!",
+    "value": 4184,
+    "img": "https://a-static.mlcdn.com.br/800x560/geladeira-brastemp-frost-free-inverse-443-litros-cor-inox-com-turbo-ice-bre57ak/whirlpool/2004090/79931fb5e87255e77a1bce4cb3ebe4cc.jpeg",
+    "id": "gift-44"
+  },
+  {
+    "title": "Ir com os noivos para a Lua de Mel",
+    "description": "Amigo, com esse presente, como dizer não?",
+    "value": 100000,
+    "img": "https://www.passagenspromo.com.br/blog/wp-content/uploads/2018/09/passagenspromo_viagem_com_amigos_5-min.jpg",
+    "id": "gift-45"
+  }
+]

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-text text-brand-text;
+}
+
+.home-section {
+  @apply mt-12 w-[100%] px-12 md:px-24 flex flex-col items-center py-12 relative overflow-x-hidden;
+}
+
+.responsive-grid {
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+}
+
+.gift-border {
+  border-top: 1px solid rgb(229, 229, 229);
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: rgb(0 0 0 / 14%) 0px 6px 10px;
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-500 bg-opacity-20;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-brand-primary-main;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-brand-primary-200;
+  }
+}
