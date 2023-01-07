@@ -36,7 +36,7 @@ export const GiftPage = () => {
   if (!gift) {
     const navigate = useNavigate();
     navigate('/gifts');
-    return;
+    return <></>;
   }
 
   const [paymentInformation, setPaymentInformation] = useState<PaymentInformationType>(initialPaymentInformation);
