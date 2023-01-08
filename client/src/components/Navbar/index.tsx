@@ -16,7 +16,7 @@ export const Navbar = () => {
       handleClickScroll(elementId);
       setIsNavbarExpanded(false);
     } else {
-      setTimeout(() => handleClickScroll(elementId), 1000);
+      setTimeout(() => handleClickScroll(elementId), 300);
       navigate('/');
     }
   };
