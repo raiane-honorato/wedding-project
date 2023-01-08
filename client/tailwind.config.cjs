@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.tsx"
-  ],
+  content: ['./src/**/*.tsx'],
   theme: {
     extend: {
       animation: {
@@ -28,13 +26,14 @@ module.exports = {
           secondary_dark: '#62482F',
           text: '#606060',
           white: '#FFFFFF',
-        }
+        },
       },
       backgroundImage: {
-        header: 'url(./src/assets/header.png)',
-        gradient: 'linear-gradient(180deg, #CBB1A4 0%, rgba(203, 177, 164, 0.677083) 54.17%, rgba(203, 177, 164, 0.561671) 71.87%, rgba(203, 177, 164, 0) 100%)',
-      }
+        header: 'url(/assets/header.png)',
+        gradient:
+          'linear-gradient(180deg, #CBB1A4 0%, rgba(203, 177, 164, 0.677083) 54.17%, rgba(203, 177, 164, 0.561671) 71.87%, rgba(203, 177, 164, 0) 100%)',
+      },
     },
   },
   plugins: [],
-}
+};
