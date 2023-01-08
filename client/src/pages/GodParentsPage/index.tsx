@@ -9,7 +9,7 @@ export const GodParentsPage = () => {
         title={'Nossos padrinhos'}
         subtitle={'Essa turminha de pessoas incríveis nos acompanharam em toda a nossa jornada e não poderiam ficar de fora nesse dia tão especial para nós <3'}
         imgHeader={imgHeader}
-        customImgHeaderClass={'!max-w-lg'}
+        customImgHeaderClass={'!w-[87%]'}
       />
       <div className='home-section w-full h-[60vh] !mt-24 gap-4'>
         <div className='flex gap-4 items-center'>
