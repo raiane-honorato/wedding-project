@@ -16,7 +16,7 @@ export const GodParentsPage = () => {
           <img src='https://art.pixilart.com/d8a5d6f1f1f432a.png' className='w-24' alt='' />
           <h3 className='font-semibold text-2xl'>Erro!</h3>
         </div>
-        <span className='text-lg'>Ainda estamos chamando nossos padrinhos. Você não quer estragar a surpresa, né?</span>
+        <span className='text-lg text-center'>Ainda estamos chamando nossos padrinhos. Você não quer estragar a surpresa, né?</span>
       </div>
 
       <Footer />
