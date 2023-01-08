@@ -29,7 +29,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        header: 'url(/assets/header.png)',
+        header: 'url(header.png)',
         gradient:
           'linear-gradient(180deg, #CBB1A4 0%, rgba(203, 177, 164, 0.677083) 54.17%, rgba(203, 177, 164, 0.561671) 71.87%, rgba(203, 177, 164, 0) 100%)',
       },
