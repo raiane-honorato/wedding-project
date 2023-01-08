@@ -3,7 +3,7 @@ import imgHeader from "../../../assets/header.png";
 
 export const Header = () => {
   return (
-    <header className='bg-header bg-no-repeat bg-cover bg-[65%] md:bg-center  h-[90vh]'>
+    <header style={{ backgroundImage: "url('../../../assets/header.png')" }} className='bg-header bg-no-repeat bg-cover bg-[65%] md:bg-center  h-[90vh]'>
       <Navbar />
       <div className='absolute left-[10vw] top-32'>
         <h2 className='font-mainTitle text-brand-white text-8xl md:text-9xl'>{'Raiane & Lucas'}</h2>
