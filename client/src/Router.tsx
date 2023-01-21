@@ -9,12 +9,12 @@ import { CerimonyPage } from "./pages/CerimonyPage";
 export function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="/gifts" element={<GiftsPage />}/>
-      <Route path="/gifts/:giftId" element={<GiftPage />}/>
-      <Route path="/godparents" element={<GodParentsPage />}/>
-      <Route path="/cerimony" element={<CerimonyPage />}/>
-      <Route path="*" element={<Page404 />}/>
+      <Route path="/" element={<Home />} />
+      <Route path="/gifts" element={<GiftsPage />} />
+      <Route path="/gifts/:giftId" element={<GiftPage />} />
+      <Route path="/best-people" element={<GodParentsPage />} />
+      <Route path="/cerimony" element={<CerimonyPage />} />
+      <Route path="*" element={<Page404 />} />
     </Routes>
   )
 }

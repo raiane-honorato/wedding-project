@@ -44,18 +44,21 @@ export const Navbar = () => {
         </li>
         <li>
           <Button
+            onClick={() => setIsNavbarExpanded(false)}
             label={<Link to='/cerimony'>A cerimônia</Link>}
             color="SECONDARY"
           />
         </li>
         <li>
           <Button
-            label={<Link to='/godparents'>Padrinhos</Link>}
+            onClick={() => setIsNavbarExpanded(false)}
+            label={<Link to='/best-people'>Padrinhos</Link>}
             color="SECONDARY"
           />
         </li>
         <li>
           <Button
+            onClick={() => setIsNavbarExpanded(false)}
             label={<Link to='/gifts'>Presentes</Link>}
             color="SECONDARY"
           />
