@@ -20,7 +20,7 @@ export const Cerimony = ({ customClass = '', showButton = true }: CerimonyProps)
       <Title label='A cerimônia' customClass='z-10' />
       <div className='flex items-center flex-col min-[950px]:flex-row gap-16 mt-8'>
         <WeddingMap />
-        <div className='flex flex-col gap-6 max-w-[80%] items-start z-50'>
+        <div className='flex flex-col gap-6 max-w-[80%] items-start z-40'>
           <p>Decidimos fazer esta cerimônia pois queríamos ter um momento inesquecível de celebração do nosso amor, recebendo o carinho e as bençãos de todas as pessoas que são realmente importante para nós. E gostaríamos que todos se sentissem acolhidos, por isso vamos fazer uma cerimônia independente de religião, pois para nós Deus se manifesta no amor que recebemos. </p>
           <p>A cerimônia e a festa serão nesse aconchegante cantinho mineiro, perto da cidade da noiva. Esperamos vocês com muito carinho!</p>
 
@@ -55,7 +55,7 @@ export const Cerimony = ({ customClass = '', showButton = true }: CerimonyProps)
 
         </div>
       </div>
-      <img src={flower1} alt='' className='absolute -top-10 sm:-top-20 right-0 w-[100px] sm:w-[220px] z-40' />
+      <img src={flower1} alt='' className='absolute -top-10 sm:-top-20 right-0 w-[100px] sm:w-[220px] z-30' />
     </section>
   );
 };
