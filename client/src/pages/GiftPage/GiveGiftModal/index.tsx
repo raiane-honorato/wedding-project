@@ -1,12 +1,9 @@
 import * as Dialog from '@radix-ui/react-dialog';
-import { X } from 'phosphor-react';
-import { FormEvent, useState } from 'react';
-import { Button } from '../../../components/Button';
 import { Loading } from '../../../components/Loading';
 import { Gift } from '../../../domains/gift.type';
-import { services } from '../../../services';
 import { GiftInformationSection } from '../GiftInformationSection';
 import { GiftInformationType, ModalState, PaymentInformationType } from '../GiftsPage.types';
+import { PaymentConfirmationSection } from '../PaymentConfirmationSection';
 import { PaymentSection } from '../PaymentSection';
 
 interface GiveGiftModalProps {
@@ -33,6 +30,7 @@ export const GiveGiftModal = ({ gift, handleCreatePayment, modalState, paymentIn
     [ModalState.GIFT_INFORMATION]: <GiftInformationSection gift={gift} handleCreatePayment={handleCreatePayment} />,
     [ModalState.LOADING]: <Loading color={'PRIMARY'} customClass='mx-auto w-[30%]' />,
     [ModalState.PAYMENT]: <PaymentSection paymentInformation={paymentInformation} />,
+    [ModalState.PAYMENT_COMPLETED]: <PaymentConfirmationSection paymentInformation={paymentInformation} />,
     // [ModalState.PAYMENT]: <PaymentSection paymentInformation={mockPaymentInfo} />,
   };
 
@@ -42,6 +40,7 @@ export const GiveGiftModal = ({ gift, handleCreatePayment, modalState, paymentIn
       <Dialog.Content className='bg-brand-white rounded-sm shadow-md fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] sm:max-w-[800px] h-[90vh] sm:h-[570px] overflow-y-auto p-8 z-[101] flex flex-col items-stretch justify-center'>
         {stepComponent[modalState]}
         {/* {stepComponent[ModalState.PAYMENT]} */}
+        {/* {stepComponent[ModalState.PAYMENT_COMPLETED]} */}
       </Dialog.Content>
     </Dialog.Portal>
   )

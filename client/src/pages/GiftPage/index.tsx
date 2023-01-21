@@ -8,7 +8,7 @@ import { Button } from "../../components/Button";
 import * as Dialog from '@radix-ui/react-dialog';
 import { services } from "../../services";
 import { useState } from "react";
-import { GiftInformationType, ModalState, PaymentInformationType } from "./GiftsPage.types";
+import { GiftInformationType, ModalState, PaymentInformationType, PaymentUpdate } from "./GiftsPage.types";
 import { GiveGiftModal } from "./GiveGiftModal";
 import io from 'socket.io-client';
 
@@ -25,23 +25,27 @@ const initialPaymentInformation: PaymentInformationType = {
 
 const socket = io(import.meta.env.VITE_API_LINK);
 
-socket.on('payment_update', (paymentUpdate: any) => {
-  console.log('payment', paymentUpdate);
-})
 
 export const GiftPage = () => {
   const { giftId } = useParams();
   const gift = giftId && getGift(giftId);
-
-  if (!gift) {
-    const navigate = useNavigate();
-    navigate('/gifts');
-    return <></>;
-  }
+  const navigate = useNavigate();
 
   const [paymentInformation, setPaymentInformation] = useState<PaymentInformationType>(initialPaymentInformation);
   const [modalState, setModalState] = useState<ModalState>(ModalState.GIFT_INFORMATION);
   const backupQrCode = import.meta.env.VITE_BACKUP_QR_CODE;
+
+  socket.on('payment_update', (paymentUpdate: PaymentUpdate) => {
+    console.log('paymentUpdate', paymentUpdate);
+    if (paymentUpdate?.action === 'payment.updated' && paymentUpdate?.data?.id.toString() === paymentInformation?.id?.toString()) {
+      setModalState(ModalState.PAYMENT_COMPLETED);
+    }
+  });
+
+  if (!gift) {
+    navigate('/gifts');
+    return <></>;
+  }
 
   const handleCreatePayment = async (giftInformation: GiftInformationType) => {
     setModalState(ModalState.LOADING);

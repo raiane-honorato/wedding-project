@@ -19,4 +19,12 @@ export enum ModalState {
   GIFT_INFORMATION = 'GIFT_INFORMATION',
   LOADING = 'LOADING',
   PAYMENT = 'PAYMENT',
+  PAYMENT_COMPLETED = 'PAYMENT_COMPLETED',
+}
+
+export interface PaymentUpdate {
+  action: 'payment.created' | 'payment.updated';
+  data: {
+    id: string;
+  };
 }
