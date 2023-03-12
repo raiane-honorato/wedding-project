@@ -36,7 +36,6 @@ export const GiftPage = () => {
   const backupQrCode = import.meta.env.VITE_BACKUP_QR_CODE;
 
   socket.on('payment_update', (paymentUpdate: PaymentUpdate) => {
-    console.log('paymentUpdate', paymentUpdate);
     if (paymentUpdate?.action === 'payment.updated' && paymentUpdate?.data?.id.toString() === paymentInformation?.id?.toString()) {
       setModalState(ModalState.PAYMENT_COMPLETED);
     }

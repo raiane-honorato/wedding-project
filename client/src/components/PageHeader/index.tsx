@@ -8,9 +8,10 @@ interface PageHeaderProps {
   subtitle: string;
   imgHeader: string;
   customImgHeaderClass?: string;
+  customImgClass?: string;
 };
 
-export const PageHeader = ({ title, subtitle, imgHeader, customImgHeaderClass }: PageHeaderProps) => {
+export const PageHeader = ({ title, subtitle, imgHeader, customImgHeaderClass, customImgClass }: PageHeaderProps) => {
   return (
     <div className='bg-brand-primary_lighten relative'>
       <Navbar />
@@ -22,7 +23,7 @@ export const PageHeader = ({ title, subtitle, imgHeader, customImgHeaderClass }:
         </div>
 
         <div className={`relative h-fit max-h-full self-end w-[65%] sm:w-[50%] ${customImgHeaderClass}`}>
-          <img alt='' src={imgHeader} className={`w-full max-w-sm translate-y-4 sm:translate-y-12 relative z-20`} />
+          <img alt='' src={imgHeader} className={`w-full max-w-sm translate-y-4 sm:translate-y-12 relative z-20 ${customImgClass}`} />
           <img alt='' src={waves} className='absolute bottom-[15%] sm:bottom-0 left-[20%] w-[80%] -z-0' />
         </div>
       </div>
